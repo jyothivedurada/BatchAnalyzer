@@ -1,6 +1,6 @@
 # BatchAnalyzer
 
-BatchAnalyzer is a batch alias analysis implementation for Java.  It is built on top of [Demand driven points-to analysis](http://web.cs.ucla.edu/~harryxu/tools/alias.htm) and [Soot](https://sable.github.io/soot/).
+BatchAnalyzer is a batch alias analysis implementation for Java.  It efficiently solves alias queries in batch mode. It is built on top of [Demand driven points-to analysis](http://web.cs.ucla.edu/~harryxu/tools/alias.htm) and [Soot](https://sable.github.io/soot/).
 
 BatchAnalyzer takes a set of alias queries as input, forms batch queries from the input set and solves the resultant batch queries.
 
